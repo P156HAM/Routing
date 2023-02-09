@@ -1,0 +1,32 @@
+.navigation-container {
+    display: flex;
+    align-self: flex-start;
+    width: 1280px;
+    background-color: white;
+    border-radius: 5px;
+    gap: 250px;
+}
+
+.navigation__title {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 40rem;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
